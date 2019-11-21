@@ -119,4 +119,3 @@ X_train = image_vectors_training
 knn.fit(X_train, y_train)
 accuracy = knn.score(image_vectors_testing, y_test)*100
 print("Accuracy on testing set: "+str(accuracy))
-
